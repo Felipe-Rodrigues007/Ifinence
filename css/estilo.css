@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2? family = Poppins: wght @ 300 & display = swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;1,200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif ;
+}
+body{
+    background-color: #252B42;
+}
+header
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px;
+    z-index: 100;
+}
+header .logo img
+{
+    max-width: 150px;
+    height: 22px;
+}
+.navegar
+{
+   display: flex;
+   margin-right: 5%;
+}
+.navegar li{
+    list-style: none;
+    margin: 0 10px;
+}
+.navegar li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.navegar li:hover a{
+    color: rgb(0, 153, 255);
+}
+.buscar
+{
+  position: relative;
+  width: 300px;
+  height: 40px  ;  
+}
+.buscar input{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background: #23A6F0;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    outline: none;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 12.74077px;
+line-height: 15px;
+    padding: 0 10px 0 45px;
+    /* backdrop-filter: blur(10px); */
+}
+
+.buscar img{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+    padding-right: 10px;
+    color: #fff;
+    /* Desnecessario aqui */
+    /* border-right: 1px solid #fff; */
+
+}
